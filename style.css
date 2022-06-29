@@ -1,0 +1,38 @@
+body{
+    background-image: url(./background.jpg);
+}
+h1{
+    color: white;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(66, 5, 5);
+    padding: 20px;
+    transform: translateY(50%);
+    text-align: center;
+    border-radius: 10px;
+}
+#resultado{
+    color: white;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.botao{
+    background-color: rgb(139, 10, 10);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+}
